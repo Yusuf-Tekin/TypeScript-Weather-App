@@ -10,7 +10,7 @@ function App() {
   const [weather, setWeather] = useState<WeatherType | null>(null)
   const {latitude,longitude} = useGeolocation()
   const [loading, setLoading] = useState<boolean>(false)
-  let key = 'a2e853a5e794e489e2bb0f7c2583cd7e'
+  let key = 'API_KEY'
 
   let lang = navigator.language;
   const langType = lang.split('-')[0]
